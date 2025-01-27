@@ -1,0 +1,73 @@
+2025-01-27 21:01:04 INFO  [io.quarkus] (main) code-with-quarkus 1.0.0-SNAPSHOT on JVM (powered by Quarkus 3.17.8) started in 1.031s. Listening on: http://0.0.0.0:8080
+2025-01-27 21:01:04 INFO  [io.quarkus] (main) Profile prod activated. 
+2025-01-27 21:01:04 INFO  [io.quarkus] (main) Installed features: [cdi, hibernate-validator, rest-client, rest-client-jackson, smallrye-context-propagation, smallrye-graphql, smallrye-graphql-client, vertx]
+2025-01-27 21:01:29 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 1
+2025-01-27 21:01:29 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 2
+2025-01-27 21:01:29 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 3
+2025-01-27 21:01:29 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 4
+2025-01-27 21:01:29 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:01:29 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello1 Name 2 current: 1
+2025-01-27 21:01:31 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello1 Name 6 current: 1
+2025-01-27 21:01:31 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:01:31 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:01:33 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello1 Name 5 current: 1
+2025-01-27 21:01:33 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:01:33 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:01:35 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello1 Name 3 current: 1
+2025-01-27 21:01:35 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:01:35 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:01:37 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello1 Name 4 current: 1
+2025-01-27 21:01:37 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:01:37 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:01:39 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:01:39 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello2 Name 1 current: 1
+2025-01-27 21:01:39 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:01:42 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello1 Name 1 current: 1
+2025-01-27 21:01:42 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:01:42 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:01:44 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello2 Name 9 current: 1
+2025-01-27 21:01:44 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:01:44 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:01:46 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello2 Name 10 current: 1
+2025-01-27 21:01:46 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:01:46 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:01:48 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello1 Name 7 current: 1
+2025-01-27 21:01:48 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:01:48 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:01:50 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello1 Name 8 current: 1
+2025-01-27 21:01:50 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:01:50 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:01:52 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello1 Name 10 current: 1
+2025-01-27 21:01:52 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:01:52 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:01:54 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello1 Name 9 current: 1
+2025-01-27 21:01:54 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:01:54 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:01:56 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello2 Name 3 current: 1
+2025-01-27 21:01:56 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:01:56 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:01:58 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello2 Name 2 current: 1
+2025-01-27 21:01:58 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:01:58 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:02:00 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello2 Name 4 current: 1
+2025-01-27 21:02:00 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:02:00 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:02:02 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello2 Name 5 current: 1
+2025-01-27 21:02:02 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:02:02 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:02:04 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello2 Name 6 current: 1
+2025-01-27 21:02:04 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:02:04 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:02:06 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello2 Name 7 current: 1
+2025-01-27 21:02:06 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:02:06 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) Before 5
+2025-01-27 21:02:08 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 4
+2025-01-27 21:02:08 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello2 Name 8 current: 1
+2025-01-27 21:02:10 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello1 Name 11 current: 1
+2025-01-27 21:02:10 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 3
+2025-01-27 21:02:12 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello1 Name 12 current: 1
+2025-01-27 21:02:12 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 2
+2025-01-27 21:02:14 INFO  [org.acme.HelloGraphQLResource] (executor-thread-1) sayHello1 Name 13 current: 1
+2025-01-27 21:02:14 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 1
+2025-01-27 21:02:16 INFO  [org.acme.LoggingEventingService] (vert.x-eventloop-thread-0) After 0
+2025-01-27 21:09:20 INFO  [io.quarkus] (Shutdown thread) code-with-quarkus stopped in 0.044s
